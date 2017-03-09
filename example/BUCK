@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'cpp-int-snips',
+  srcs = [
+    'cpp_int_snips.cpp',
+  ],
+  deps = [
+    '//:boost-multiprecision',
+  ],
+)
